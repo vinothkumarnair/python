@@ -25,3 +25,4 @@ print(Calculator.add(calculator_object1,10))
 #__getitem__ to get a pariticular item from property
 #__repr__ (retrun a formatter)for debugger to give info an object
 #__str__ (retrun a formatter)to directly print the object as string
+#__doc__ will print the command above the method which are in 3 single quotes
