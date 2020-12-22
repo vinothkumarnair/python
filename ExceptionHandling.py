@@ -28,6 +28,8 @@ except TypeError:
   print("error thrown")
 except Exception:
   print("general error")
+  #propagate error
+  raise
 finally:
   print("always runs")
 #print(customer_object.throw_error())
